@@ -11,3 +11,5 @@ Template to Typescript
 ![image info](../images/01_databinding.png)
 
 
+When you want to ouptut some value use String Interpolation
+When you change property of DOM Element  use Property Binding
