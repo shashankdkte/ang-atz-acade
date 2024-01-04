@@ -18,3 +18,20 @@ n
 cd my-first-app 
 ng  serve
 
+## Typescript
+
+Compiled to Javascript
+
+## Installing Bootstrap
+npm install --save bootstrap@3
+
+
+
+### angular.json
+
+```
+"styles":[
+  "node_modules/bootstrap/dist/css/bootstrap.min.css",
+  "src/styles.css"
+]
+```
