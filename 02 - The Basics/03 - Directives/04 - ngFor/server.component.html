@@ -1,1 +1,8 @@
-<app-server *ngFor="let server of servers"></app-server>
+<p [ngStyle]="{backgroundColor:getColor()}" [ngClass]="{online:serverStatus === 'online'}">
+  {{'Server'}} with ID {{serverId}} is {{ getStatus() }}
+</p>
+<button (click)="onServerCreated()">Add Server</button>
+{{servers.length}}
+<p *ngFor="let server of servers">
+  {{'Server'}} with ID {{server.serverId}} is {{ server.serverStatus }}
+</p>
