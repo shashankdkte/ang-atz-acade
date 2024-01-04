@@ -10,3 +10,9 @@ Directives are instructions in the DOM
 
 ## *ngIf
 It is a structural directive . It changes the structure of DOM
+
+## [ngStyle]
+It dynamically updates the style
+
+## [ngClass]
+It allows to dynamically add or remove classes
