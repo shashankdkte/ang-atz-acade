@@ -15,6 +15,20 @@ bootstrap:[AppComponent]
 
 
 ## Components are important
-![image info](./images/component.png)
+![image info](./component.png)
+
+
+## Creating Components with CLI
+```
+ng generate component servers
+```
+
+### Template is must
+```typescript
+@Component({
+  selector: "app-server",
+  template: `<app-home></app-home>`,
+})
+```
 
 
